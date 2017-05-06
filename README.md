@@ -1,2 +1,2 @@
-# funfacts
+# FunFacts app
 FunFacts android project
