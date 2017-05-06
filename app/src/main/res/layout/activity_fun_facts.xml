@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAndroidGreen"
     android:padding="16dp"
     tools:context="com.oletob.funfacts.FunFactsActivity">
 
     <TextView
         android:layout_width="wrap_content"
-        android:textSize="24sp"
         android:layout_height="wrap_content"
-        android:text="@string/app_header_text" />
+        android:text="@string/app_header_text"
+        android:textColor="#80ffffff"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/factTextView"
@@ -21,6 +23,7 @@
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
         android:text="Ants stretch when they wake up in the morning."
+        android:textColor="@android:color/white"
         android:textSize="24sp" />
 
     <Button
@@ -29,6 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
         android:text="Show Another Fun Fact" />
 
 </RelativeLayout>
