@@ -23,7 +23,7 @@ public class FactBook {
 
     // Methods
     public String getFact(){
-        
+
         // Randomly select a fact
         return facts[(new Random().nextInt(facts.length))];
     }
